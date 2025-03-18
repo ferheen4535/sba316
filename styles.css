@@ -12,36 +12,108 @@
 
 
   .box1 {
-    padding: auto;
-    height: 200px;
-    font-family: Arial, Helvetica, sans-serif ;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     color: beige;
+    position: absolute;
+    top: 213px;
+    left: 264px;
     
   }
 
 
   .box2 {
     
+    position: absolute;
+    top: 375px;
+    left: 385px;
+    margin: 0 auto;
+    
+    background-color: none;
+    align-items: center;
     font-family: Arial, Helvetica, sans-serif ;
     text-align: center;
     color: beige;
-    font-size: 20px;
+    
+    display: center;
+    width: 50%;
+   max-width: 300px; 
 
     
   }
 
 
   .box3 {
-   
-    
+    position: absolute;
+    top: 701px;
+    left: 474px;
     text-align: center;
-   
-  }
+    text-align: center;
+    display: flex
+;
+    justify-content: center;
 
+}
+
+
+.acron
+  /!multiply box////
 
  
+
  
   
-
-
+  .form {
+    margin: 0 auto;
+    justify-content: center;
+    background-color: none;
+    align - items: center;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    margin: 10px;
+  }
+  
+  .input {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    border: solid 4px rgb(226, 97, 42);
+    color: rgb(225, 113, 60);
+  }
+  
+  .input::placeholder {
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+  
+  .btn {
+    background-color: rgb(226, 104, 11);
+    color: white;
+    border: none;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 10px 4px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    filter: brightness(0.9);
+  }
+  
+  .score {
+    color: rgb(233, 246, 233);
+    font-size: 20px;
+    text-align: center;
+  }
+  
