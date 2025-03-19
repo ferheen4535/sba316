@@ -6,7 +6,7 @@ const questionEl = document.getElementById("question");
 const inputEl = document.getElementById("input");
 const formEl = document.getElementById("form");
 const scoreEl = document.getElementById("score");
-const winMessageEl = document.getElementById("winMessage");
+
 
 
 ///multiplication code////
@@ -65,11 +65,11 @@ function replaceAcorns() {      //replace the acorn with squirrel//
 
   if (acornContainers.length < 3) return;
 
-  const winMessageEl = document.getElementById("winMessage");
+ 
   const squirrelImg = document.createElement("img");
   squirrelImg.src = "squirrel.png";
   squirrelImg.alt = "squirrel";
-  squirrelImg.style.width = "70px"; //size of squirrel//
+  squirrelImg.style.width = "67px"; //size of squirrel//
 
   if (correctAnswers === 1) {
     acornContainers[0].innerHTML = ""; // Remove old acorn
@@ -79,52 +79,19 @@ function replaceAcorns() {      //replace the acorn with squirrel//
     acornContainers[1].appendChild(squirrelImg);
     acornContainers[0].style.display = "none"; // Hide first acorn
   } else if (correctAnswers === 3) {
-    acornContainers[2].innerHTML = ""; // Remove third acorn
-    winMessageEl.innerText[1].appendChild("You Win!");
-    acornContainers[1].style.display = "none"; // Hide second acorn
+    acornContainers[2].innerHTML = ""; 
+  acornContainers[2].innerText = "You Win!";
+acornContainers[2].style.fontSize = "32px";
+  acornContainers[2].style.color = "white";
+  acornContainers[2].style.fontWeight = "bold";
+  acornContainers[2].style.textAlign = "center";
+acornContainers[1].style.display = "none"; 
+
   } 
 }
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// ////////////////////
-// ////////////rollover for the right answer///
-
-// // function replaceAcorn() {
-// //   const acornEls = document.querySelectorAll('.box3 .acorn1, .box3 .acorn2, .box3 .acorn3');
-  
-// //   acornEls.forEach((acornEl, index) => {
-// //     setTimeout(() => {
-// //       acornEl.classList.add('fade-out');
-// //       setTimeout(() => {
-// //         acornEl.src = "squirrel.png"; // Replace with squirrel image
-// //         acornEl.classList.remove('fade-out');
-// //       }, 300); // Match this with your CSS transition time
-// //     }, index * 500); // Stagger the effect by 500ms for each
-// //   });
-// // }
-  
-  
 
 
 // /////SOURCE/////
