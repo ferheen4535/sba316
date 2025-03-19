@@ -11,22 +11,18 @@
   align-items: center;
   padding-top: 50px; 
   padding-bottom: 50px; 
-
   }
 
 
   .box1 {
     width: 80%;
     max-width: 600px;
-    margin-bottom: 80px;
+    margin-bottom: 90px;
     height: auto;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     color: beige;
     text-shadow: 1px 1px 2px black;
-    
-
-
   }
 
 
@@ -34,57 +30,30 @@
     width: 80%;
     max-width: 300px; 
     margin-bottom: 20px;
-    /* position: absolute;
-    top: 375px;
-    left: 385px;
-    margin: 0 auto; */
-    
-    background-color: none;
-    /* align-items: center; */
     font-family: Arial, Helvetica, sans-serif ;
     text-align: center;
     color: rgb(255, 255, 255);
     text-shadow: 2px 2px 2px black;
-    
-    /* display: center;
-    width: 50%;
-   max-width: 300px;  */
-
   }
 
 
   .box3 {
-    /* position: absolute;
-    top: 701px;
-    left: 474px; */
-    width: 80%;
+   width: 80%;
     max-width: 300px;
     margin-bottom: 20px;
-    /* position: absolute;
-    top: 40%;
-    left: 45%; */
+   text-align: center;
     text-align: center;
-    text-align: center;
-    display: flex
-;
+    display: flex;
     justify-content: center;
     display: flex;
   justify-content: center;
   gap: 40px;
-
 }
 
 
-.acron1 {
-   
-}
   /!multiply box////
 
- 
-
- 
-  
-  .form {
+ .form {
     margin: 0 auto;
     justify-content: center;
     background-color: none;
@@ -136,4 +105,4 @@
     font-size: 20px;
     text-align: center;
   }
-  
+  ///////////////////////////////////////////////////////////
